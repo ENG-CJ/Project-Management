@@ -1,42 +1,33 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+    background-color: aliceblue;
+}
+.container{
+    margin: 20px 300px;
+    background-color: #fdfdfd;
+    padding: 2px 17px;
+    border-radius: 17px;
+-webkit-box-shadow: -1px 2px 95px -1px rgba(235, 235, 235, 1);
+    -moz-box-shadow: -1px 2px 95px -1px rgba(235, 235, 235, 1);
+    box-shadow: -1px 2px 95px -1px rgba(235, 235, 235, 1);
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.form-group select, input{
+    margin-top: 9px;
+    padding: 7px;
+    border-radius: 4px;
+    border: 1px solid #878181;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+button{
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: #e4e1e1;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }
